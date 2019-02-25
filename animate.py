@@ -75,5 +75,5 @@ def PIB_Time(n, L, t):
 anim = animation.FuncAnimation(fig, animate, init_func=init,
 	                               frames=10000, interval=20, blit=True)
 #anim.save('PIB_EE3.mp4', fps=15, extra_args=['-vcodec', 'libx264'])
-          
+        
 plt.show()
